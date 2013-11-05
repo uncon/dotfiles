@@ -27,3 +27,9 @@ Updating
 --------
 
     git pull && git submodule update --init --recursive
+
+Notes
+-----
+- When using iTerm2, it is important to doe the following in your profile
+  - disable 'Draw bold text in bright colors'
+  - set 'Report Terminal Type' to 'xterm-256color'
