@@ -26,7 +26,7 @@ Installation
 Updating
 --------
 
-    git pull && git submodule update --init --recursive
+    cd "${HOME}/.dotfiles" && git pull && git submodule init && git submodule update && git submodule status
 
 Notes
 -----
