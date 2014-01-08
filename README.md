@@ -26,7 +26,7 @@ Installation
 Updating
 --------
 
-    cd "${HOME}/.dotfiles" && git pull && git submodule init && git submodule update && git submodule status
+    cd "${HOME}/.dotfiles" && git pull && git submodule init && git submodule update && git submodule foreach git checkout master && git submodule foreach git pull && git submodule status
 
 Notes
 -----
