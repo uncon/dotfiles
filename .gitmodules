@@ -1,6 +1,6 @@
 [submodule "prezto"]
 	path = prezto
-	url = https://github.com/sorin-ionescu/prezto.git
+	url = git://github.com/sorin-ionescu/prezto.git
 	branch = master
 [submodule "vim-pathogen"]
 	path = vim-pathogen
