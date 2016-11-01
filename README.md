@@ -16,12 +16,9 @@ Installation
            ln -s "${rcfile}" "${HOME}/.${rcfile:t}"
         done
 
-  3. Install Prezto (in zsh):
+  3. Install [Oh-My-Zsh](http://ohmyz.sh/):
 
-        setopt EXTENDED_GLOB
-        for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
-          ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
-        done
+        sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 Updating
 --------
