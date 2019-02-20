@@ -56,3 +56,6 @@ set ai
 
 " Backspace over anything
 set backspace=indent,eol,start
+
+" Use huge icons
+set toolbariconsize=huge
