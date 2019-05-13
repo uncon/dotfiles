@@ -7,6 +7,9 @@ filetype on
 filetype indent on
 filetype plugin on
 
+" Enable 256 colors
+set t_Co=256
+
 " Always show status line
 set laststatus=2
 
