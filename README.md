@@ -21,7 +21,7 @@ My Dot Files
 
 1. Install [Starship](https://starship.rs/)
 	```
-	curl -sS https://starship.rs/install.sh | sh
+	echo '\n# Starship\neval "$(starship init zsh)"\n' >> "${HOME}/.zshrc"
 	```
 
 ## Updating
