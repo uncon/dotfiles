@@ -19,10 +19,9 @@ My Dot Files
 	sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 	```
 
-1. Install [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
+1. Install [Starship](https://starship.rs/)
 	```
-	git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
-	sed -i.old -e 's/^\(ZSH_THEME=\).*$/\1"powerlevel10k\/powerlevel10k"/' ~/.zshrc
+	curl -sS https://starship.rs/install.sh | sh
 	```
 
 ## Updating
